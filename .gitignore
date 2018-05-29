@@ -1,0 +1,10 @@
+# sqlite db file
+*.db
+
+# dependencies
+/node_modules
+
+# misc
+.env.sh
+
+yarn-error.log*
