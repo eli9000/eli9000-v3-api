@@ -1,6 +1,9 @@
 # sqlite db file
 *.db
 
+# serverless file
+.serverless
+
 # dependencies
 /node_modules
 

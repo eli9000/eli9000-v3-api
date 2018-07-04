@@ -12,7 +12,7 @@
       "runtime": "nodejs6.10",
       "environment": {
         "NODE_ENV": "production",
-        "DATABASE_URL": "postgres://eli9000:skate801@e9k-skills.c0fl8psvob2x.us-east-1.rds.amazonaws.com:5432/code_skills"
+        "DATABASE_URL": "postgres://eli9000:Z8mfXz8Xdo87K7ovbEm@e9k-skills.c0fl8psvob2x.us-east-1.rds.amazonaws.com:5432/code_skills"
       },
       "versionFunctions": true,
       "remoteFunctionData": null,
@@ -139,7 +139,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/serverless-graphql-rds/production/1527505606293-2018-05-28T11:06:46.293Z/serverless-graphql-rds.zip"
+                "S3Key": "serverless/serverless-graphql-rds/production/1529995225775-2018-06-26T06:40:25.775Z/serverless-graphql-rds.zip"
               },
               "FunctionName": "serverless-graphql-rds-production-graphql",
               "Handler": "handler.graphqlHandler",
@@ -155,7 +155,7 @@
               "Environment": {
                 "Variables": {
                   "NODE_ENV": "production",
-                  "DATABASE_URL": "postgres://eli9000:skate801@e9k-skills.c0fl8psvob2x.us-east-1.rds.amazonaws.com:5432/code_skills"
+                  "DATABASE_URL": "postgres://eli9000:Z8mfXz8Xdo87K7ovbEm@e9k-skills.c0fl8psvob2x.us-east-1.rds.amazonaws.com:5432/code_skills"
                 }
               }
             },
@@ -164,14 +164,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "GraphqlLambdaVersion1b7SDnlesUGKxH9nAGaIOqJZFoWgxdRQiwdka0mxo": {
+          "GraphqlLambdaVersionw3d3HdRssrfE1wGEFYh05kQgzsIYH2SrlNLhfmdMZUA": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "GraphqlLambdaFunction"
               },
-              "CodeSha256": "H7kcJeVjF3saDx5wdkZK8PjAf3x8hiBh2O9oklP1SZU="
+              "CodeSha256": "elczY5VJ63hWIYALm373O18ke9WVB19ACD4Vi36m3OY="
             }
           },
           "PlaygroundLambdaFunction": {
@@ -181,7 +181,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/serverless-graphql-rds/production/1527505606293-2018-05-28T11:06:46.293Z/serverless-graphql-rds.zip"
+                "S3Key": "serverless/serverless-graphql-rds/production/1529995225775-2018-06-26T06:40:25.775Z/serverless-graphql-rds.zip"
               },
               "FunctionName": "serverless-graphql-rds-production-playground",
               "Handler": "handler.playgroundHandler",
@@ -197,7 +197,7 @@
               "Environment": {
                 "Variables": {
                   "NODE_ENV": "production",
-                  "DATABASE_URL": "postgres://eli9000:skate801@e9k-skills.c0fl8psvob2x.us-east-1.rds.amazonaws.com:5432/code_skills"
+                  "DATABASE_URL": "postgres://eli9000:Z8mfXz8Xdo87K7ovbEm@e9k-skills.c0fl8psvob2x.us-east-1.rds.amazonaws.com:5432/code_skills"
                 }
               }
             },
@@ -206,14 +206,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "PlaygroundLambdaVersionuYRlti5FNOrhBoAQVOfNYcccBvnLmWnqqud1yqME": {
+          "PlaygroundLambdaVersionMu8Fl97YjRQZNfNzFCsmFIGe0rbf3ZeyflGUQeejA": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "PlaygroundLambdaFunction"
               },
-              "CodeSha256": "H7kcJeVjF3saDx5wdkZK8PjAf3x8hiBh2O9oklP1SZU="
+              "CodeSha256": "elczY5VJ63hWIYALm373O18ke9WVB19ACD4Vi36m3OY="
             }
           },
           "GraphiqlLambdaFunction": {
@@ -223,7 +223,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/serverless-graphql-rds/production/1527505606293-2018-05-28T11:06:46.293Z/serverless-graphql-rds.zip"
+                "S3Key": "serverless/serverless-graphql-rds/production/1529995225775-2018-06-26T06:40:25.775Z/serverless-graphql-rds.zip"
               },
               "FunctionName": "serverless-graphql-rds-production-graphiql",
               "Handler": "handler.graphiqlHandler",
@@ -239,7 +239,7 @@
               "Environment": {
                 "Variables": {
                   "NODE_ENV": "production",
-                  "DATABASE_URL": "postgres://eli9000:skate801@e9k-skills.c0fl8psvob2x.us-east-1.rds.amazonaws.com:5432/code_skills"
+                  "DATABASE_URL": "postgres://eli9000:Z8mfXz8Xdo87K7ovbEm@e9k-skills.c0fl8psvob2x.us-east-1.rds.amazonaws.com:5432/code_skills"
                 }
               }
             },
@@ -248,14 +248,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "GraphiqlLambdaVersionxDbvZ0fNqaGQ2JX0ItLsSMo4G8LTY2lflosL7n2VA": {
+          "GraphiqlLambdaVersionij9aDcUS7rcJFJMyBmkpxANy9dkky4aWi9g9RHcNSps": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "GraphiqlLambdaFunction"
               },
-              "CodeSha256": "H7kcJeVjF3saDx5wdkZK8PjAf3x8hiBh2O9oklP1SZU="
+              "CodeSha256": "elczY5VJ63hWIYALm373O18ke9WVB19ACD4Vi36m3OY="
             }
           },
           "ApiGatewayRestApi": {
@@ -569,7 +569,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1527505606527": {
+          "ApiGatewayDeployment1529995225988": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -692,19 +692,19 @@
           "GraphqlLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "GraphqlLambdaVersion1b7SDnlesUGKxH9nAGaIOqJZFoWgxdRQiwdka0mxo"
+              "Ref": "GraphqlLambdaVersionw3d3HdRssrfE1wGEFYh05kQgzsIYH2SrlNLhfmdMZUA"
             }
           },
           "PlaygroundLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "PlaygroundLambdaVersionuYRlti5FNOrhBoAQVOfNYcccBvnLmWnqqud1yqME"
+              "Ref": "PlaygroundLambdaVersionMu8Fl97YjRQZNfNzFCsmFIGe0rbf3ZeyflGUQeejA"
             }
           },
           "GraphiqlLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "GraphiqlLambdaVersionxDbvZ0fNqaGQ2JX0ItLsSMo4G8LTY2lflosL7n2VA"
+              "Ref": "GraphiqlLambdaVersionij9aDcUS7rcJFJMyBmkpxANy9dkky4aWi9g9RHcNSps"
             }
           },
           "ServiceEndpoint": {
@@ -869,7 +869,7 @@
     }
   },
   "package": {
-    "artifactDirectoryName": "serverless/serverless-graphql-rds/production/1527505606293-2018-05-28T11:06:46.293Z",
+    "artifactDirectoryName": "serverless/serverless-graphql-rds/production/1529995225775-2018-06-26T06:40:25.775Z",
     "artifact": ""
   }
 }

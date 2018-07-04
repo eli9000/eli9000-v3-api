@@ -9,9 +9,11 @@ type Skill {
 
 type Contact {
   id: ID
-  type: String!
+  name: String!
   info: String
   link: String
+  fa: String
+  color: String
 }
 
 type Query {
